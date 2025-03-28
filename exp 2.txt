@@ -1,0 +1,49 @@
+
+1. write a p.p to check whether the given is in between 1 to 100 using if else ?
+ 
+n=int(input("enter the value of n:"))
+
+count=0
+
+num=5
+
+while count<n:
+ 
+   print(num)
+ 
+   num+=5
+    
+count+=1
+    
+
+output:
+enter the value of n:4
+
+5
+
+10
+
+15
+
+20
+
+
+=== Code Execution Successful ===
+
+2.write a p.p to accept some list elements and find sum of elements ?
+
+mylist=input("enter a list of numbers separated by space:")
+
+mylist=list(map(int,mylist.split()))
+
+sum=0
+
+for num in mylist:
+  
+  sum +=num
+    
+print("the sum  of the number is:",sum)
+
+out put:
+enter a list of numbers separated by space:10 20 30 40 50
+the sum of the numbers is :150
